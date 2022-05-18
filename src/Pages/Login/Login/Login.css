@@ -1,0 +1,45 @@
+.form-bg-login {
+    width: 500px;
+    height: 620px;
+    background-color: #26004d;
+    border-radius: 10px;
+    margin: 70px auto;
+}
+
+.form-container-login {
+    width: 500px;
+    height: 620px;
+    background-image: url("../../../images//bg.jpg");
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: translate(15px, 25px);
+}
+
+.login-title {
+    color: #26004d;
+}
+
+.reset-password {
+    font-size: 18px;
+    color: rgb(197, 53, 55);
+    cursor: pointer;
+}
+
+.reset-password:hover {
+    color: rgb(27, 62, 65);
+}
+
+@media only screen and (max-width: 576px) {
+    .form-bg-login {
+        width: 300px;
+        height: 630px;
+        margin: 70px 20px;
+    }
+    
+    .form-container-login {
+        width: 300px;
+        height: 630px;
+        transform: translate(10px, 20px);
+    }
+}

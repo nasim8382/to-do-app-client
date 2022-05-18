@@ -1,0 +1,19 @@
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-link-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 12px !important;
+}
+
+.nav-link-item:hover{
+    padding: 3px 12px !important;
+    background-color: #b300b3!important;
+    transition: 0.3s !important;
+}
+
+.bg-dark {
+    background-color: #26004d !important;
+}
