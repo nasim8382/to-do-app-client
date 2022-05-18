@@ -1,0 +1,85 @@
+.table-section {
+    padding-bottom: 200px;
+}
+
+.delete-icon {
+    color: rgb(197, 53, 55);
+    font-size: 40px;
+    border: none;
+}
+
+.delete-icon:hover {
+    color: rgb(27, 62, 65);
+    transition: 0.3s;
+}
+
+.modal-content {
+    background-color: rgb(199, 220, 221) !important;
+    border: 2px solid rgb(104, 9, 9)!important;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgb(197, 53, 55) !important;
+}
+
+.dialog-btn-cancel {
+    color: white;
+    background-color: #b300b3;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.dialog-btn-cancel:hover {
+    background-color: #26004d;
+    transition: 0.4s;
+}
+
+.dialog-btn-confirm {
+    color: white;
+    background-color: #26004d;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.dialog-btn-confirm:hover {
+    background-color: #b300b3;
+    transition: 0.4s;
+}
+
+.complete-btn {
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #26004d;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 0 #b300b3;
+    transition: ease-out 0.3s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.complete-btn:hover {
+    box-shadow: inset 150px 0 0 0 #b300b3;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 576px) {
+    .complete-btn {
+        display: block;
+        width: 110px;
+        margin-top: 40px;
+    }
+    
+    .complete-btn:hover {
+        box-shadow: inset 110px 0 0 0 #b300b3;
+    }
+}

@@ -17,3 +17,29 @@
 .bg-dark {
     background-color: #26004d !important;
 }
+
+.sign-out-btn {
+    border: none;
+    margin-top: -3px;
+    text-transform: uppercase;
+    padding: 3px 12px;
+    text-decoration: none;
+}
+
+.sign-out-btn:hover{
+    padding: 3px 12px;
+    background-color: #b300b3;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 576px) {
+    .sign-out-btn {
+        margin-left: -255px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .sign-out-btn {
+        margin-left: -600px;
+    }
+}

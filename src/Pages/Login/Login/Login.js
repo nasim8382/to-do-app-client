@@ -68,7 +68,7 @@ const Login = () => {
                 <div className="row">
                         <div className='form-bg-login'>
                             <div className='form-container-login'>
-                            <h1 className='text-center login-title mt-5'>Welcome You</h1>
+                            <h1 className='text-center semi-bold purple mt-5'>Welcome You</h1>
 
                             <form onSubmit={handleSubmit}>
                                 <input ref={emailRef} placeholder="Email Address" className="mt-5 mb-4 signup-input" type="email" name="email" required/>

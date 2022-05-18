@@ -16,8 +16,12 @@
     transform: translate(15px, 25px);
 }
 
-.login-title {
+.purple {
     color: #26004d;
+}
+
+.semi-bold {
+    font-weight: 600;
 }
 
 .reset-password {

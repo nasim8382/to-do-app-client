@@ -1,0 +1,54 @@
+.add-tasks-section {
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+.add-bg {
+    width: 500px;
+    height: 500px;
+    background-color: #26004d;
+    border-radius: 10px;
+    margin: 30px auto; 
+}
+
+.add-form {
+    width: 500px;
+    height: 500px;
+    background-image: url("../../images//bg.jpg");
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: translate(15px, 25px);
+}
+
+.add-textarea {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 80px;
+    background-color: aliceblue;
+    border: 1px solid rgb(27, 62, 65);
+    border-radius: 5px;
+}
+
+.add-textarea::placeholder {
+    color: rgb(27, 62, 65);
+    padding-left: 50px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 576px) {
+    .add-bg{
+        width: 300px;
+        margin: 50px 20px; 
+    }
+    
+    .add-form {
+        width: 300px;
+        transform: translate(10px, 20px);
+    }
+
+    .add-textarea {
+        width: 250px;
+    }
+}

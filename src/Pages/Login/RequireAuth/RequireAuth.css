@@ -1,0 +1,16 @@
+.requireauth {
+    padding-bottom: 400px;
+}
+
+.verify-btn {
+    width: 400px;
+    box-shadow: inset 0 0 0 0 #b300b3;
+}
+
+.verify-btn:hover {
+    box-shadow: inset 400px 0 0 0 #b300b3;
+}
+
+.spinner-img {
+    margin-bottom: 150px;
+}
